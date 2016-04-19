@@ -1,0 +1,87 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville',serif,"Helvetica Neue",Helvetica,Arial,cursive;
+    text-transform: none;
+    font-weight: 700;
+}
+.navbar-default .navbar-brand {
+    color: transparent;
+    font-family: 'Libre Baskerville',serif,"Helvetica Neue",Helvetica,Arial,cursive;
+    
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+    color: transparent;
+}
+.navbar-default .nav li a {
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    /*text-transform: uppercase;*/
+    /*font-weight: 400;*/
+    /*letter-spacing: 1px;*/
+    color: transparent;
+}
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+    color: transparent;
+    /* outline: 0; */
+    border-color: #fff;
+}
+.bg-blue {
+    background-color: #002868;
+}
+.bg-red {
+    background-color: #BF0A30;
+}
+.bg-dark {
+    background-color: #222;
+    color: #fff;
+}
+.icon-bg {
+    color: #002868;
+}
+.navbar-default.navbar-resize{
+    background-color:#222;
+    padding: 10px 0;
+}
+.navbar-default.navbar-resize .navbar-brand, .navbar-default.navbar-resize .page-scroll{
+    color: #ffffff;
+}
+header .intro-text .intro-heading{
+    text-transform: none;
+    font-family: 'Libre Baskerville', serif;
+}
+header {
+    background-image:url(../img/law_bg.jpg);
+    height:100vh;
+}
+.btn-lg{
+    background-color: transparent;
+    border-color: transparent;
+    color: #c0c0c0;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+.btn-lg:hover, .btn-lg:focus, .btn-lg:active, .btn-lg.active, .open .dropdown-toggle.btn-lg {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+@media (min-width: 768px){
+header .intro-text .intro-heading {
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+    font-size: 6.5vw;
+    /*line-height: 75px;*/
+    margin-bottom: 51px;
+}
+}
+
+@media (min-width: 1200px){
+header .intro-text .intro-heading {
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+    font-size: 80px;
+    /*line-height: 75px;*/
+    margin-bottom: 51px;
+}
+}
