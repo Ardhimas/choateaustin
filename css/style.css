@@ -32,11 +32,21 @@ blockquote:after {
 footer {
     text-align: right;
 }
-#map {
-    width: 500px;
-    height: 400px;
+.google-maps {
+    position: relative;
+    padding-bottom: 50%;
+    /*// (450 ÷ 500 = 0.9 = 90%)*/
+    /*height: 0;*/
+    overflow: hidden;
 }
-section h3.section-subheading {
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.section-subheading.text-muted {
     margin-bottom: 30px;
 }
 .navbar-default .navbar-brand {
@@ -92,6 +102,7 @@ header {
     border-color: transparent;
     color: #c0c0c0;
     font-weight: 400;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     border-radius: 20px;
 }
